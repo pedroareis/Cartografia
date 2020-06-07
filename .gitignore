@@ -77,3 +77,4 @@ fabric.properties
 .idea/modules.xml
 .idea/vcs.xml
 *.xml
+Scripts/.DS_Store
