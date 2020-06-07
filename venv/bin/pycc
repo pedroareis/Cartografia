@@ -1,0 +1,3 @@
+#!/Users/Pedro/Documents/MeusProjetosPython/Cartografia/venv/bin/python
+from numba.pycc import main
+main()
