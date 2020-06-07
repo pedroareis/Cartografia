@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 from netCDF4 import Dataset
+import numpy as N
 
 import cartopy.crs as ccrs
 
@@ -10,7 +11,7 @@ lon = data.variables['lon'][:]
 
 
 ax = plt.axes(projection=ccrs.PlateCarree())
-plt.contourf(lon, lat, temp, vmin=-5, vmax=5, cbar_kwargs={'shrink':0.4})
+plt.contourf(lon, lat, temp, N.arange(-5., 6., 1), cmap='RdBu_r')
 ax.coastlines()
 ax.gridlines()
 
