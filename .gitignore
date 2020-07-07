@@ -78,3 +78,5 @@ fabric.properties
 .idea/vcs.xml
 *.xml
 Scripts/.DS_Store
+Scripts/NCreader.py
+Scripts/TesteCartopy5_Painel.py
